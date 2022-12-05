@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    display: block;
+  
+} */
+/* .logo{
+    color: white;
+   border: 1px solid white;
+   display: inline-block;
+   margin: 25px 40px; 
+} */
+nav ul {
+    /* border: 1px solid white; */
+    float: right;
+    margin: 10px 20px;
+}
+/* ul li{
+    display: inline-block;
+    margin: 20px;
+    color: rgb(239, 133, 253);
+    list-style: none;
+} */
+@media only screen and (max-width:600px){
+    ul li{
+        display: block;
+        margin: 5px;
+        color: rgb(239, 133, 253);
+        list-style: none;
+    }
+    header{
+        background-color: blueviolet;
+        height: 120px;
+        width: 100%;
+    }
+    .logo{
+        color: white;
+       /* border: 1px solid white; */
+       display: inline-block;
+       margin: 46px 40px; 
+    }
+}
+
+
+@media only screen and (min-width:600px){
+        ul li{
+            display: block;
+            margin: 5px;
+            color: rgb(239, 133, 253);
+            list-style: none;
+        }
+
+        header{
+            background-color: blueviolet;
+            height: 120px;
+            width: 100%;
+        }
+
+        .logo{
+            color: white;
+           /* border: 1px solid white; */
+           display: inline-block;
+           margin: 46px 40px; 
+        }
+}
+
+
+@media only screen and (min-width:768px){
+  ul li{
+    display: inline-block;
+    margin: 20px;
+    color: rgb(239, 133, 253);
+    list-style: none;
+}
+
+    header{
+        background-color: blueviolet;
+        height: 120px;
+        width: 100%;
+    }
+
+    .logo{
+        color: white;
+       /* border: 1px solid white; */
+       display: inline-block;
+       margin: 25px 40px; 
+    }
+
+    header{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    display: block;
+    }
+}
